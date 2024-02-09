@@ -1,0 +1,121 @@
+ @charset "UTF-8";
+	
+	
+	
+/*ESTILOS GERAIS*/
+		@font-face{
+			font-family: 'fonttit';
+			src: url('fonte/RobotoSlab-VariableFont_wght.ttf');
+		}	
+	
+		*{
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;	
+		}	
+		body{
+			margin: auto auto;
+			min-width: 320px;
+			max-width: 1024px;
+		}
+		main{
+			font-family: 'fonttit';
+		}	
+		figure{
+			background-color: #dbdbdb;
+			padding: 15px;
+			text-align: center;
+			font-size: 12px;
+			font-style: italic;
+		}
+		h2{
+			border-bottom: 2px solid black;
+			font-size: 20px;
+		}
+		img{
+			width: 100%;	
+		}	
+
+/*ESTILOS ESPECIFICOS*/
+
+		header img{
+			max-width: 150px;	
+		}
+		
+		main h1{
+			background-color: #c2c2c2;
+			padding: 7px;	
+			font-size: 22px;
+			color: #424644;
+		}
+		main p{
+			font-size: 14px;
+			text-align: justify;
+			text-indent: 1.5em;
+			line-height: 1.5em;  /*este comando dá espaçamento entre as linhas de um texto*/
+			padding: 10px 0px 10px 40px;
+			max-width: 870px;
+		}
+	/*Article "mirror"*/	
+			#mirror figure{
+				display: block;
+				max-width: 400px;
+				margin: auto;
+			}	
+			
+	/*Article "historia"*/
+			#historia{
+				margin-top: 20px;
+			}	
+			#historia figure{
+				float: right;
+				max-width: 300px;
+				margin-left: 30px;
+				
+			}	
+			#historia div{
+				margin-right: 60px;
+			}	
+	/*Article "diferenciais"*/
+			#diferenciais{
+				margin: 20px 0px 0px 0px;	
+			}
+			#diferenciais h2{
+				margin-bottom: 20px;	
+			}	
+			#diferenciais ul{
+				list-style-position: inside;	
+				padding-left: 20px;
+			}	 
+			#diferenciais a{
+				display: block;
+				text-align: center;
+				margin-top: 20px;
+				background-color: #c2c2c2;
+				font-size: 35px;
+				color: #2c08eb;
+				font-weight: bolder;
+				text-decoration: none;				
+			}
+		
+	/*Cabeçalho "Footer"*/
+			footer{
+				display: flex;
+				margin-top: 50px;
+				margin-bottom: 20px;
+			}	
+	
+			footer img{
+				max-width: 80px;
+			}
+			footer p{
+				padding-left: 50px;	
+				margin-top: 50px;
+				color: #7d7d7d;
+			}	
+			
+			
+			
+	
+			
+		
