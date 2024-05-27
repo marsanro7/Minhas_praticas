@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+}
+form{
+    width: 96%;
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+form fieldset{
+    padding: 0 40px;
+}
+form legend{
+    font-size: 17px;
+    color: #80817e;
+}
+.campos input{
+    display: inline-block;
+    width: 80%;   
+    margin-top: 30px;
+    padding: 10px 20px; 
+    font-size: 15px;
+}
+.idade select{
+   width: 80%;
+   margin-top: 30px;
+   padding: 10px 20px;
+   font-size: 15px;
+} 
+h2{
+   margin-top: 30px;
+}  
+.cidade{
+    display: inline-block;
+    text-align: left;
+    margin-top: 20px;
+}
+.cidade span{
+    margin-left: 13px;
+    font-size: 16px;
+    color: rgb(138,138,138);
+}

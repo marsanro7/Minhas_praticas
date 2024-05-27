@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta http-equiv="X-UA-Compatible" content= "IE-Edge"/>
+        <meta name="viewport" content="width-device-width, initial-device=1.0"/>
+        
+        <title>Meu Formulario - Curso Danki code</title>
+
+        <link rel="stylesheet" type="text/css" href="css/style.css"/> 
+    </head>
+    <body>
+        <form>
+            <fieldset>
+                <legend>Meu Formulario</legend>
+                <div class=" campos">
+                    <input type="text"  name="nome" placeholder="Digite seu nome"/>
+                    <input type="email" name="email" placeholder="Digite seu email"/>
+                </div>
+    
+                <div class="idade">
+                    <select name="lista">
+                        <option disabled selected>Qual a sua idade</option>
+                        <option>20</option>
+                        <option>+25</option>
+                        <option>+40</option>
+                    </select>
+                </div>
+               
+                <h2>Selecione sua cidade</h2>
+                <div class="cidade">
+                    <input type="radio" name="cidade" value=""/><span>Florianopolis</span>
+                    <input type="radio" name="cidade" value=""/><span>São Paulo</span>
+                    <input type="radio" name="cidade" value=""/><span>Curitiba</span>
+                </div>
+    
+                <h2>Selecione seu prato preferido</h2>
+                <div class="comida">
+                    <input type="checkbox" name="comida" value=""/><span>Feijoada</span>
+                    <input type="checkbox" name="comida" value=""/><span>Tropeiro</span>
+                    <input type="checkbox" name="comida" value=""/><span>Lasanha</span>
+                </div>
+    
+                <div class="area">
+                       <textarea></textarea> 
+                </div>
+                
+                <div class="botao">
+                    <input type="submit" name="açao" value="ENVIAR"/>
+                </div>
+            </fieldset>
+        </form>
+    </body>
+</html>
