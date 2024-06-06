@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    html,body{
+        height: 100%;
+    }
+    .center{
+        width: 1280px;
+        margin: 0 auto;
+    }
+    header{
+        width: 100%;
+        height: 60px;
+        background-color: #212343;
+    }  
+    header img{
+        margin: 19px;
+       
+    }  
+    #banner{
+       width: 100%;
+       height:557px;
+       background-image: url(../images/header_bg.png);
+       background-size: cover;
+       background-position: center;
+    }
+    #banner > .center{
+        height: 100%;
+    }
+    .form{
+        width: 480px;
+        height: 100%;
+        float: right;
+        background-color: white;
+    }
+
