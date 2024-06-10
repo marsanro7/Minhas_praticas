@@ -4,9 +4,14 @@
         margin: 0;
         padding: 0;
         box-sizing: border-box;
+        font-family: "Open Sans";
     }
     html,body{
         height: 100%;
+    }
+    @font-face{
+        src: url('../fonts/OpenSans-Light.ttf');
+        font-family: "Open Sans";
     }
     .center{
         width: 1280px;
@@ -19,11 +24,11 @@
     }  
     header img{
         margin: 19px;
-       
     }  
+    
     #banner{
        width: 100%;
-       height:557px;
+       height: 557px;
        background-image: url(../images/header_bg.png);
        background-size: cover;
        background-position: center;
@@ -32,9 +37,57 @@
         height: 100%;
     }
     .form{
+        position: relative;
         width: 480px;
-        height: 100%;
+        height: calc(100% + 30px);
         float: right;
         background-color: white;
+        font-size: 26px;
+        top: -65px;
+        border: 8px solid #ccc;
+        padding: 10px;
     }
+    .form h2{
+       font-size: 21px;
+       text-align: center;
+       color: #999999;
+    }
+    .form fieldset{
+       margin-top: 20px;
+       border: none;
+    }
+    .form span{
+        display: inline-block;
+        width: 100%;
+        margin-top: 15px;
+        font-size: 17px;
+    }
+    .form input{
+        width: 344px;
+        height: 55px;
+        margin-top: 8px;
+    }
+    .form input[type=text]{
+        
+    }
+    form p.obrigatorio{
+        margin-top: 20px;
+    }
+     .form input[type=submit]{
+        display: block;
+        width: 280px;
+        margin: 50px auto;
+        font-size: 25px;;
+        background-color: #363A6D;
+        color: white;
+        cursor: pointer;
+        text-transform: uppercase;
+    }
+    .form input[type=submit]:hover{
+        background-color: #221d50;
+    }    
+    .form p, span{
+        color: #848485;
+    }
+
 
