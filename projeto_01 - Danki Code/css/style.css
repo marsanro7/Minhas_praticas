@@ -14,7 +14,7 @@
         font-family: "Open Sans";
     }
     .center{
-        width: 1280px;
+        width: 1200px;
         margin: 0 auto;
     }
     header{
@@ -43,9 +43,10 @@
         float: right;
         background-color: white;
         font-size: 26px;
-        top: -65px;
-        border: 8px solid #ccc;
+        top: -15px;
+        border: 8px solid rgb(120, 120, 120, 0.5);
         padding: 10px;
+        background-clip: padding-box;
     }
     .form h2{
        font-size: 21px;
@@ -67,10 +68,7 @@
         height: 55px;
         margin-top: 8px;
     }
-    .form input[type=text]{
-        
-    }
-    form p.obrigatorio{
+      form p.obrigatorio{
         margin-top: 20px;
     }
      .form input[type=submit]{
@@ -89,5 +87,43 @@
     .form p, span{
         color: #848485;
     }
-
+    ul{
+        float: left;
+        margin-top: 40px;
+        padding: 30px;
+        background-color: rgb(33, 35, 67, 0.7);
+        width: 619px;
+        height: 270px;
+        color: white;
+        list-style-position: inside;
+    }
+    li{
+        margin: 18px;
+    }
+    article.text01{
+        background-color: #e6e5e5;
+        text-align: center;
+        padding: 40px 0; 
+    }
+    article.text01 h2{
+        font-weight: normal;
+        
+    }
+    article.text01 p{
+        display:inline-block;
+        width: 698px;
+        text-align: justify;
+        margin: 15px 0;
+    }
+    div.arrow{
+        position: relative;
+        top: 60px;
+        left: 50%;
+        width: 40px;
+        height: 40px;
+        background-image: url(../images/arrow.png);
+        background-size:  100%  100%;
+        margin-left: -20px;
+    }
+   
 
