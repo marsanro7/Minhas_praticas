@@ -16,8 +16,10 @@
     .center{
         width: 1200px;
         margin: 0 auto;
+        padding: 0 2%;
     }
     header{
+        min-width: 1200px;
         width: 100%;
         height: 60px;
         background-color: #212343;
@@ -28,6 +30,7 @@
     
     #banner{
        width: 100%;
+       min-width: 1200px;
        height: 557px;
        background-image: url(../images/header_bg.png);
        background-size: cover;
@@ -101,6 +104,7 @@
         margin: 18px;
     }
     article.text01{
+        min-width: 1200px;
         background-color: #e6e5e5;
         text-align: center;
         padding: 40px 0; 
@@ -126,4 +130,32 @@
         margin-left: -20px;
     }
    
+    #section-1{
+        min-width: 1200px;
+        padding: 98px 0;
+    }
+    article#section-1 h2{
+        text-align: center;
+        color: #462663;
+        font-weight: normal;
+    }
+    article#section-1 p{
+        display:inline-block;
+        text-align: center;
+        font-size: 12px;
+        padding: 10px 25px;
+    }
+    article#section-1 img{
+        align-items: center;
+        width: 70px
+    }
+    #section-1 div.text{
+        margin-top: 40px;
+        text-align: center;
+    }
+    div.containe-section-1{
+       width: 30%;
+       display:inline-block;
+       padding: 30px;
+    }
 
